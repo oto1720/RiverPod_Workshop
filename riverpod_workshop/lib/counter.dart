@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 // こちらが　MyHomePage
-// StatefulWidget に関しても後で説明するよ！！！！！
+// StatefulWidget 
 class MyHomePage extends StatefulWidget {
-  // title を受け取ってるね👀
+  // title を受け取ってる
   const MyHomePage({super.key, required this.title});
 
   final String title;
@@ -32,7 +32,7 @@ class _MyHomePageState extends State<MyHomePage> {
       // Center で真ん中寄せ
       body: Center(
         // Column は [] の中身を縦に並べてくれる widget
-        // Row で横になるよ
+        // Row で横になる
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[

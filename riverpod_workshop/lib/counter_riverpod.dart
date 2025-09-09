@@ -10,8 +10,8 @@ final counterProvider = StateProvider<int>((ref) {
 });
 
 // 🔄 StatefulWidget → ConsumerWidget に変更
-class MyHomePage extends ConsumerWidget {
-  const MyHomePage({super.key, required this.title});
+class MyHomePageRiverpod extends ConsumerWidget {
+  const MyHomePageRiverpod({super.key, required this.title});
   
   final String title;
 
@@ -73,7 +73,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Riverpod Counter'),
+      home: const MyHomePageRiverpod(title: 'Riverpod Counter Demo'),
     );
   }
 }

@@ -1,4 +1,4 @@
-import 'package:riverpod_workshop/my_home_page.dart';
+import 'package:riverpod_workshop/counter.dart';
 import 'package:flutter/material.dart';
 
 // 中枢！main.dart の main() が最初に呼ばれる
@@ -9,7 +9,7 @@ void main() {
 
 // こちらが MyApp
 // Widget を使うよってことで Widget を extend したクラスを作る
-// StatelessWidget に関しては後で説明するよ！
+// StatelessWidget
 class MyApp extends StatelessWidget {
   // コンストラクタ
   // クラスが作られたときにクラス内で使う変数を初期化するためのもの
