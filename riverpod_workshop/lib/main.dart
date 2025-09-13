@@ -1,5 +1,6 @@
 import 'package:riverpod_workshop/counter.dart';
 import 'package:flutter/material.dart';
+import 'package:riverpod_workshop/sample/counter_riverpod_sample.dart';
 
 // 中枢！main.dart の main() が最初に呼ばれる
 void main() {
@@ -36,7 +37,7 @@ class MyApp extends StatelessWidget {
       ),
       // 最初に表示させるページをは下の MyHomePage
       // 引数として title 渡してる（無くてもいいよ）
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePageRiverpod(title: 'Flutter Demo Home Page'),
     );
   }
 }
